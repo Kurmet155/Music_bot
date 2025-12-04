@@ -4,7 +4,6 @@ from dotenv import load_dotenv
 from aiogram import Bot, Dispatcher, types, F
 from aiogram.types import Message
 from services.lastfm import search_track, get_artist_info
-from services.lyrics import get_lyrics
 from services.db import init_db, add_favorite, list_favorites
 
 load_dotenv()
